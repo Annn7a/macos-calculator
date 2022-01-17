@@ -1,0 +1,152 @@
+.firstDiv {
+  width: 232px;
+  height: 319px;
+  background-color: #4f4f4f;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  border-color: rgb(68, 68, 68);
+  border-width: 0.1px;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.parteaintii {
+  width: auto;
+  height: 80px;
+}
+.panou {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+.round1 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgb(236, 102, 98);
+}
+.round2 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgb(244, 186, 82);
+}
+.round3 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #62c255;
+}
+.parteaButoaneSus {
+  display: flex;
+  margin: 0;
+}
+.butoane {
+  width: 58px;
+  height: 48px;
+  background-color: #606060;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.orangeBtn {
+  width: 58px;
+  height: 48px;
+  background-color: #f1a33b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  width: 117px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.borderLeft {
+  border-left: solid #4f4f4f 0.5px;
+}
+.borderRigth {
+  border-right: solid #4f4f4f 0.5px;
+}
+.borderTop {
+  border-top: solid #4f4f4f 0.5px;
+}
+.borderBottom {
+  border-bottom: solid #4f4f4f 0.3px;
+}
+.colorBtn {
+  background-color: #7a7a7a;
+}
+.borderL {
+  border-radius: 0px 0px 0px 10px;
+}
+.borderR {
+  border-radius: 0px 0px 10px 0px;
+}
+.textFont,
+.textFont button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ebebeb;
+  text-align: center;
+  font-size: 25px;
+}
+input {
+  height: 50px;
+  width: 228px;
+  font-size: 40px;
+  background-color: #4f4f4f;
+  border: 0px;
+  text-align: justify;
+  text-justify: inter-word;
+  text-align: right;
+  color: #ededed;
+  caret-color: transparent;
+}
+
+.inputSize {
+  width: 232px;
+  height: 60px;
+  margin-top: 5px;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+label {
+  display: table-cell;
+  text-align: right;
+}
+.button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  background-image: "plus.svg";
+}
+.panou:hover img {
+  visibility: visible;
+}
+img {
+  color: #225711;
+  visibility: hidden;
+}
+button {
+  border: none;
+}
+.buttonGrey:active {
+  background-color: rgb(187, 184, 184);
+}
+.buttonMeniu:active {
+  background-color: rgb(136, 135, 135);
+}
+.buttonOper:active {
+  background-color: rgba(244, 186, 82, 0.6);
+}
